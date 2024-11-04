@@ -48,7 +48,7 @@ class RegistroDeDetentos:
         else:
             print(f'{'Nome do detento'.ljust(20)} | {'Numero do detento'.ljust(17)} | {'Idade do detento'.ljust(16)} | {'Sexo do detento'.ljust(10)}')
             for detento in self.detentos:
-                #tive que transformar os elementos 'detento._numero' e o 'detento._idade' em str para poder aplicar o .ljust()
+                #tive que transformar os atributos 'detento._numero' e o 'detento._idade' em str para poder aplicar o método .ljust()
                 print(f'{detento._nome.ljust(20)} | {str(detento._numero).ljust(17)} | {str(detento._idade).ljust(16)} | {detento._sexo.ljust(10)}')
         voltar_ao_menu_principal()
 
