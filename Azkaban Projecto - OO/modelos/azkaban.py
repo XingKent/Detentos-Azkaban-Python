@@ -1,4 +1,5 @@
 #Esse projeto funcionará basicamente como um programa para registrar detento de Azkaban (prisão de segurança maxima do universo de Harry Potter)
+#programa feito no vscode, para rodar o programa, basta digitar 'python app.py' no terminal ou dar run no file 'app.py'
 import os
 
 class Detento: 
